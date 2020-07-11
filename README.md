@@ -4,6 +4,12 @@ Make sure the dotnet cli is installed. Start an ASP.NET core web api project
     $ dotnet new webapi -o <project-name>
 ```
 
+Inside the project directory, initialize a git repo and add a .gitignore file
+
+```bash
+    $ dotnet new gitignore
+```
+
 Add [.dockerignore](./.dockerignore) and [Dockerfile](./Dockerfile) files to the root folder.
 Version 3.1 of .NET core base image was used. Make sure your dll file in the Dockerfile matches
 the project name.
