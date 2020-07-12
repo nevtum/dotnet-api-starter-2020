@@ -1,8 +1,8 @@
 # ASP.NET core API setup 2020
 
-This is my reference project for starting cloud native (dockerized) .NET core applications in 2020.
-Below are progressive steps to get from a traditional ASP.NET core project to something more 
-observable and cloud ready.
+This is a reference project, reflecting my learnings in making cloud ready (dockerized) .NET core
+applications in 2020. Below are progressive steps to get from a traditional ASP.NET core project
+to something more observable and deployable to the cloud.
 
 ## Initial steps
 
@@ -32,7 +32,8 @@ By default, dotnet binds the API to the https port 5001.
 
 To add json logging to your project, follow the instructions from
 [Serilog's site](https://github.com/serilog/serilog-aspnetcore). Their guide is quite comprehensive
-to customize your log middleware and log formatting as it suits you needs.
+to customize your log middleware and log formatting as it suits your needs. For the impatient, the
+required changes are in [Program.cs](./Program.cs)
 
 ## Dockerizing the API
 
