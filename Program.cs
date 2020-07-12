@@ -5,7 +5,7 @@ using Serilog;
 using Serilog.Events;
 using Serilog.Formatting.Compact;
 
-namespace TestApi
+namespace CloudNativeApi
 {
     public class Program
     {

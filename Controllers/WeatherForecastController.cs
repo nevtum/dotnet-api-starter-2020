@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 
-namespace TestApi.Controllers
+namespace CloudNativeApi.Controllers
 {
     [ApiController]
     [Route("[controller]")]
